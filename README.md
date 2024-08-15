@@ -20,14 +20,14 @@ This application is designed to manage email campaigns by importing users from a
    ```bash
    git clone https://github.com/rahul-junkie/campaign-management-system.git
    cd campaign-management-system
-
-**Run these all commands before moving ahead:**
    composer install
    npm install
    cp .env.example .env
    php artisan migrate
 
+
 **To run the test case:**
+    ```bash
     ./vendor/bin/pest --filter CampaignCreateTest
 
 
