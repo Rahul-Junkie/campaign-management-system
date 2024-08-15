@@ -1,0 +1,25 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build && vite build --ssr"
+    },
+    "devDependencies": {
+        "@inertiajs/vue3": "^1.0.9",
+        "@tailwindcss/forms": "^0.5.4",
+        "@vitejs/plugin-vue": "^4.2.3",
+        "@vue/server-renderer": "^3.3.4",
+        "autoprefixer": "^10.4.14",
+        "axios": "^1.4.0",
+        "laravel-vite-plugin": "^0.7.8",
+        "postcss": "^8.4.26",
+        "tailwindcss": "^3.3.3",
+        "vite": "^4.4.3",
+        "vue": "^3.3.4"
+    },
+    "dependencies": {
+        "@inertiajs/inertia-vue3": "^0.6.0",
+        "vue-wysiwyg": "^1.7.2"
+    }
+}
